@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+venv_cpu/
+venv_gpu/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets
+.env
+.env.*
+
+# Generated files
+output/
+projects/
+runs/
+
+# Large ML files
+datasets/
+*.pt
+*.onnx
+*.engine
+*.weights
+
+# Logs/temp
+*.log
+*.tmp
+*.bak
+
+# OS
+Thumbs.db
+.DS_Store
